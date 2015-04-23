@@ -68,3 +68,38 @@ attributes:
         - kstrano
         - deliver
         - crafter
+    sublime_text_packages:
+        -
+            name: SublimeLinter
+            source: https://github.com/SublimeLinter/SublimeLinter3.git
+            branch: master
+        -
+            name: SideBarEnhancements
+            source: https://github.com/titoBouzout/SideBarEnhancements
+            branch: st3
+        -
+            name: GitGutter
+            source: https://github.com/jisaacks/GitGutter.git
+            branch: master
+        -
+            name: BracketHighlighter
+            source: https://github.com/facelessuser/BracketHighlighter.git
+            branch: ST3
+        -
+            name: Theme - Soda
+            source: https://github.com/buymeasoda/soda-theme/
+            branch: master
+        -
+            name: Base16
+            source: https://github.com/chriskempson/base16-textmate.git
+            branch: master
+        -
+            name: ApplySyntax
+            source: https://github.com/facelessuser/ApplySyntax.git
+            branch: ST3
+        -
+            name: DocBlockr
+            source: https://github.com/spadgos/sublime-jsdocs.git
+            branch: master
+    sublime_text:
+        theme: "Soda Dark 3.sublime-theme"
