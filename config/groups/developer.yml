@@ -33,16 +33,22 @@ recipes:
 attributes:
     homebrewalt:
         apps:
+            - fswatch
             - git
             - git-extras
-            - wget
-            - pwgen
-            - xmlstarlet
-            - htop-osx
             - git-flow
+            - htop-osx
+            - httpie
+            - imagemagick
+            - jq
+            - pyenv
+            - pyenv-virtualenv
+            - pwgen
+            - rsync
             - siege
             - watch
-            - rsync
+            - wget
+            - xmlstarlet
         cask_apps:
             - evernote
             - imageoptim

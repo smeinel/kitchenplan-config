@@ -52,6 +52,9 @@ attributes:
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
+        apps:
+            - nmap
+            - tree
         cask_apps:
             - istat-menus
             - quicksilver
