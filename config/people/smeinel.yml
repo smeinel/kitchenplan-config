@@ -57,6 +57,7 @@ attributes:
             - tree
         cask_apps:
             - istat-menus
+            - iterm2
             - quicksilver
             - spotify
             - caffeine
