@@ -55,6 +55,7 @@ attributes:
         apps:
             - nmap
             - tree
+            - z
         cask_apps:
             - istat-menus
             - iterm2
