@@ -44,7 +44,7 @@ attributes:
         name: Cynthia Kiser
         email: cnk@caltech.edu
     osxdefaults:
-        computername: spry
+        computername: agile
     authorization:
         sudo:
             users:
