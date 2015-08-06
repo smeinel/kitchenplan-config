@@ -1,6 +1,5 @@
 recipes:
     global:
-        - dotfiles::gitconfig
         - applications::ssh_config
         - dotfiles::vim
         - dotfiles::workspace
