@@ -44,7 +44,7 @@ attributes:
         name: Jane Ding
         email: hding@caltech.edu
     osxdefaults:
-        computername: charon
+        computername: jupiter
     authorization:
         sudo:
             users:
