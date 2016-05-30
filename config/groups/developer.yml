@@ -1,6 +1,5 @@
 recipes:
     global:
-        - dotfiles::gitconfig
         - applications::ssh_config
         - dotfiles::vim
         - dotfiles::workspace
@@ -44,7 +43,6 @@ attributes:
             - pyenv
             - pyenv-virtualenv
             - pwgen
-            - rsync
             - siege
             - watch
             - wget
@@ -60,6 +58,7 @@ attributes:
             - virtualbox
             - chefdk
             - sourcetree
+            - slack
     nodejs:
         apps:
             - uglify-js
@@ -90,7 +89,7 @@ attributes:
         -
             name: BracketHighlighter
             source: https://github.com/facelessuser/BracketHighlighter.git
-            branch: ST3
+            branch: master
         -
             name: Theme - Flatland
             source: git://github.com/thinkpixellab/flatland.git
@@ -102,7 +101,7 @@ attributes:
         -
             name: ApplySyntax
             source: https://github.com/facelessuser/ApplySyntax.git
-            branch: ST3
+            branch: master
         -
             name: DocBlockr
             source: https://github.com/spadgos/sublime-jsdocs.git

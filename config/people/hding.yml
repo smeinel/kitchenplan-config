@@ -28,7 +28,7 @@ attributes:
     dotfiles:
         vimusers:
             - root
-            - cnk
+            - hding
         kdeploy:
             hostname: dev
         vim:
@@ -41,19 +41,18 @@ attributes:
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
                 - vim-css-color: https://github.com/ap/vim-css-color
     git:
-        name: Cynthia Kiser
-        email: cnk@caltech.edu
+        name: Jane Ding
+        email: hding@caltech.edu
     osxdefaults:
-        computername: agile
+        computername: piplup
     authorization:
         sudo:
             users:
-                - cnk
+                - hding
             passwordless: true
             include_sudoers_d: true
     homebrewalt:
         apps:
-            - emacs
             - nmap
             - tree
             - wget
@@ -68,3 +67,9 @@ attributes:
             - flashlight
             - couleurs
             - spectacle
+            - emacs
+            - openoffice
+            - gimp
+            - firefox
+            - seamonkey
+            - jumpcut
