@@ -43,7 +43,6 @@ attributes:
             - pyenv
             - pyenv-virtualenv
             - pwgen
-            - rsync
             - siege
             - watch
             - wget

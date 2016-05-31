@@ -53,9 +53,10 @@ attributes:
             include_sudoers_d: true
     homebrewalt:
         apps:
+            - emacs
             - nmap
             - tree
-	    - wget
+            - wget
             - z
         cask_apps:
             - istat-menus
@@ -67,4 +68,3 @@ attributes:
             - flashlight
             - couleurs
             - spectacle
-            - emacs
